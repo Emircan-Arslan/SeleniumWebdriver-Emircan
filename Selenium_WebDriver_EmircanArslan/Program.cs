@@ -36,7 +36,7 @@ namespace Selenium_WebDriver_EmircanArslan
             driver.FindElement(By.XPath(".//*[@id='contentListing']/div/div/div[2]/div[4]/a[2]")).Click(); // burada arama yaptıkdan sonra 2. sayfaya geçmesi için yazdık. "xpath" ; bütün sayfa içinde arama yapar.
             // yukarıdaki kısmı uzatmamın sebebi eğer başka bir sitede her dive bir id değeri verilmediğinde istediğimiz sayfaya ulaşmak için tek tek belirttik. 
 
-            driver.FindElement(By.XPath("//*[@id='p-344271849']/div[2]/span[1]")).Click(); // favorilerime eklemek için. 
+            driver.FindElement(By.XPath("//*[@id='p-252308949']/div[2]/span[1]")).Click(); // favorilerime eklemek için. 
                                                                                            /* not : n11 de favori kısmındaki ürünün id si her gün değişiyor bunun nedenini bilmiyorum eğer burada 
                                                                                            bir hata alırsanız bu sitedeki id değerinin değişmesinden kaynaklıdır.*/
 
